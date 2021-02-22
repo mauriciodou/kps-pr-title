@@ -1,0 +1,16 @@
+name: KPS Pr Title
+author: Mauricio Martinez
+description: String manipulation to build Pull Request titles
+branding:
+  icon: corner-down-right
+  color: gray-dark
+inputs:
+  string:
+    ref: Github reference.
+    required: true
+outputs:
+  title:
+    description: The parsed reference for correct display in the PR Title
+runs:
+  using: node12
+  main: index.js

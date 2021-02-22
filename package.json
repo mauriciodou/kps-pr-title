@@ -1,0 +1,14 @@
+{
+  "name": "kps-pr-title",
+  "version": "1.0.0",
+  "description": "String manipulation to build Pull Request titles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mauricio Martinez",
+  "dependencies": {
+    "@actions/core": "^1.2.6"
+  }
+}
